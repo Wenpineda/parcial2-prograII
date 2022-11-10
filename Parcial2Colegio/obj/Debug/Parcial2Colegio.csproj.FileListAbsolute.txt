@@ -1,0 +1,11 @@
+C:\Users\cance\OneDrive\Escritorio\CICLOS\CICLO IV\Programacion II\Parcial2Colegio\obj\Debug\Parcial2Colegio.csproj.AssemblyReference.cache
+C:\Users\cance\OneDrive\Escritorio\CICLOS\CICLO IV\Programacion II\Parcial2Colegio\obj\Debug\Parcial2Colegio.csproj.SuggestedBindingRedirects.cache
+C:\Users\cance\OneDrive\Escritorio\CICLOS\CICLO IV\Programacion II\Parcial2Colegio\obj\Debug\Parcial2Colegio.Form1.resources
+C:\Users\cance\OneDrive\Escritorio\CICLOS\CICLO IV\Programacion II\Parcial2Colegio\obj\Debug\Parcial2Colegio.Properties.Resources.resources
+C:\Users\cance\OneDrive\Escritorio\CICLOS\CICLO IV\Programacion II\Parcial2Colegio\obj\Debug\Parcial2Colegio.csproj.GenerateResource.cache
+C:\Users\cance\OneDrive\Escritorio\CICLOS\CICLO IV\Programacion II\Parcial2Colegio\obj\Debug\Parcial2Colegio.csproj.CoreCompileInputs.cache
+C:\Users\cance\OneDrive\Escritorio\CICLOS\CICLO IV\Programacion II\Parcial2Colegio\bin\Debug\Parcial2Colegio.exe.config
+C:\Users\cance\OneDrive\Escritorio\CICLOS\CICLO IV\Programacion II\Parcial2Colegio\bin\Debug\Parcial2Colegio.exe
+C:\Users\cance\OneDrive\Escritorio\CICLOS\CICLO IV\Programacion II\Parcial2Colegio\bin\Debug\Parcial2Colegio.pdb
+C:\Users\cance\OneDrive\Escritorio\CICLOS\CICLO IV\Programacion II\Parcial2Colegio\obj\Debug\Parcial2Colegio.exe
+C:\Users\cance\OneDrive\Escritorio\CICLOS\CICLO IV\Programacion II\Parcial2Colegio\obj\Debug\Parcial2Colegio.pdb
