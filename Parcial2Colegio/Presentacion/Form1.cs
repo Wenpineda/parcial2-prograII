@@ -54,7 +54,7 @@ namespace Parcial2Colegio
             catch (Exception)
             {
 
-                MessageBox.Show("No se admiten campos vacios");
+                MessageBox.Show("");
             }
             void calcularPromedio()
             {
@@ -83,6 +83,86 @@ namespace Parcial2Colegio
                 txtpromedio3.Text = string.Empty;
                 txtpromediofinal.Text = string.Empty;
 
+            }
+        }
+
+        private void txtnombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar >= 33 && e.KeyChar <= 64 || e.KeyChar >= 91 && e.KeyChar <= 96 || e.KeyChar >= 123 && e.KeyChar <= 255)
+            {
+                MessageBox.Show("Solo se aceptan letras ", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void txtapellido_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar >= 33 && e.KeyChar <= 64 || e.KeyChar >= 91 && e.KeyChar <= 96 || e.KeyChar >= 123 && e.KeyChar <= 255)
+            {
+                MessageBox.Show("Solo se aceptan letras ", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void txtcarrera_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar >= 33 && e.KeyChar <= 64 || e.KeyChar >= 91 && e.KeyChar <= 96 || e.KeyChar >= 123 && e.KeyChar <= 255)
+            {
+                MessageBox.Show("Solo se aceptan letras ", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void txtasignatura_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar >= 33 && e.KeyChar <= 64 || e.KeyChar >= 91 && e.KeyChar <= 96 || e.KeyChar >= 123 && e.KeyChar <= 255)
+            {
+                MessageBox.Show("Solo se aceptan letras ", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void txtpromedio1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar >= 32 && e.KeyChar <= 45 || e.KeyChar >= 58 && e.KeyChar <= 255 || e.KeyChar >= 123 && e.KeyChar <= 255)
+            {
+                MessageBox.Show("Solo se aceptan números ", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void txtpromedio2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar >= 32 && e.KeyChar <= 45 || e.KeyChar >= 58 && e.KeyChar <= 255 || e.KeyChar >= 123 && e.KeyChar <= 255)
+            {
+                MessageBox.Show("Solo se aceptan números ", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void txtpromedio3_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar >= 32 && e.KeyChar <= 45 || e.KeyChar >= 58 && e.KeyChar <= 255 || e.KeyChar >= 123 && e.KeyChar <= 255)
+            {
+                MessageBox.Show("Solo se aceptan números ", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void txtpromediofinal_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar >= 32 && e.KeyChar <= 45 || e.KeyChar >= 58 && e.KeyChar <= 255 || e.KeyChar >= 123 && e.KeyChar <= 255)
+            {
+                MessageBox.Show("Solo se aceptan números ", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                e.Handled = true;
+                return;
             }
         }
     }

@@ -92,6 +92,7 @@
             this.txtpromedio2.Name = "txtpromedio2";
             this.txtpromedio2.Size = new System.Drawing.Size(106, 24);
             this.txtpromedio2.TabIndex = 70;
+            this.txtpromedio2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtpromedio2_KeyPress);
             // 
             // txtpromedio3
             // 
@@ -101,6 +102,7 @@
             this.txtpromedio3.Name = "txtpromedio3";
             this.txtpromedio3.Size = new System.Drawing.Size(106, 24);
             this.txtpromedio3.TabIndex = 69;
+            this.txtpromedio3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtpromedio3_KeyPress);
             // 
             // txtpromediofinal
             // 
@@ -110,6 +112,7 @@
             this.txtpromediofinal.Name = "txtpromediofinal";
             this.txtpromediofinal.Size = new System.Drawing.Size(106, 24);
             this.txtpromediofinal.TabIndex = 68;
+            this.txtpromediofinal.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtpromediofinal_KeyPress);
             // 
             // label8
             // 
@@ -130,6 +133,7 @@
             this.txtapellido.Name = "txtapellido";
             this.txtapellido.Size = new System.Drawing.Size(143, 24);
             this.txtapellido.TabIndex = 66;
+            this.txtapellido.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtapellido_KeyPress);
             // 
             // txtcarrera
             // 
@@ -139,6 +143,7 @@
             this.txtcarrera.Name = "txtcarrera";
             this.txtcarrera.Size = new System.Drawing.Size(143, 24);
             this.txtcarrera.TabIndex = 65;
+            this.txtcarrera.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtcarrera_KeyPress);
             // 
             // txtasignatura
             // 
@@ -148,6 +153,7 @@
             this.txtasignatura.Name = "txtasignatura";
             this.txtasignatura.Size = new System.Drawing.Size(143, 24);
             this.txtasignatura.TabIndex = 64;
+            this.txtasignatura.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtasignatura_KeyPress);
             // 
             // txtpromedio1
             // 
@@ -157,6 +163,7 @@
             this.txtpromedio1.Name = "txtpromedio1";
             this.txtpromedio1.Size = new System.Drawing.Size(106, 24);
             this.txtpromedio1.TabIndex = 63;
+            this.txtpromedio1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtpromedio1_KeyPress);
             // 
             // txtnombre
             // 
@@ -166,6 +173,7 @@
             this.txtnombre.Name = "txtnombre";
             this.txtnombre.Size = new System.Drawing.Size(143, 24);
             this.txtnombre.TabIndex = 60;
+            this.txtnombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtnombre_KeyPress);
             // 
             // label7
             // 
